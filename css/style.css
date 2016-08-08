@@ -22,10 +22,10 @@ src:url('../fonts/english_essay.ttf');
   src:url('../fonts/KGMissKindergarten.ttf');
 }
 
-a {
+/*a {
  font-family: kindergarten;
 }
-
+*/
 .icon-block {
   padding: 0 15px;
 }

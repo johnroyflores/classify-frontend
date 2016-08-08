@@ -1,17 +1,17 @@
 $( "#headerSubmit" ).click(function() {
-	var headerText = $(".headerText").val();
-	var subheaderText = $(".subheaderText").val();
+  var headerText = $(".headerText").val();
+  var subheaderText = $(".subheaderText").val();
   $( "#wireframe").append( $( "<h3 class='wireframeHeader'>" + headerText + "</h3>"));
   $( "#wireframe").append( $( "<h5 class='wireframeHeader'>" + subheaderText + "</h5>"));
 });
 
 $( "#calendarSubmit" ).click(function() {
-	var iframeCalendar = $(".iframeCalendar").val();
+  var iframeCalendar = $(".iframeCalendar").val();
   $( "#wireframe").append( $( iframeCalendar));
 });
 
 $( "#mediaSubmit" ).click(function() {
-	var youtubeLink = $(".youtubeLink").val();
+  var youtubeLink = $(".youtubeLink").val();
   $( "#wireframe").append( $(youtubeLink));
 });
 
@@ -30,3 +30,7 @@ $( "#photoSubmit" ).click(function() {
   // $( "#wireframe").append( $( "<img src='" + wireframePhoto1 + "' class='wireframePhoto'>"));
   $('#wireframe').append($('<div class="carousel"><a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a><a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a><a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a><a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a><a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a></div>'));
   });
+
+$(document).ready(function(){
+      $('.carousel').carousel();
+    });

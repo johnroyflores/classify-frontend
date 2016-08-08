@@ -115,11 +115,12 @@ li{
 
 /*header*/
 .squadBody {
-  margin-left: 21vw;
+  margin-left: 31vw;
+  width: 60vw;
 }
 
 #wireframe {
-  min-height: 75vh;
+  min-height: 60vh;
   width: 100%;
   border: 3px solid black;
 }

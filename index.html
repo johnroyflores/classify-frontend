@@ -32,7 +32,7 @@
                 <h5 class="header col s12 light">Your classroom, online, made easy. </h5>
             </div>
             <div class="row center">
-                <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+                <a href="#signup-modal" id="download-button" class="btn-large waves-effect waves-light orange modal-trigger">Get It, Biiiiiiitch</a>
             </div>
             <br>
             <br>
@@ -40,6 +40,7 @@
     </div>
     <div class="container">
         <div class="section">
+        <!-- Here lies the login modal -->
             <div id="login-modal" class="modal modal-fixed-footer">
                 <div class="modal-content">
                     <h4 class="modalHead">Log in</h4>
@@ -54,13 +55,37 @@
                             <div class="row">
                                 <div class="input-field col s6">
                                     <input placeholder="...." type="password" class="validate pw">
-                                    <label for="subheader">Password</label>
+                                    <label for="password">Password</label>
                                 </div>
                             </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" id="headerSubmit">Submit</a>
+                </div>
+            </div>
+            <!-- Here lies the sign-up modal -->
+             <div id="signup-modal" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                    <h4 class="modalHead">Sign up</h4>
+                    <div class="modalContainer">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="...." type="text" class="validate newUsernameText">
+                                    <label for="newUsername">Username</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="...." type="password" class="validate newPw">
+                                    <label for="newPw">Password</label>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" id="signUpSubmit">Sign Up!</a>
                 </div>
             </div>
             <!--   Icon Section   -->

@@ -140,5 +140,6 @@ iframe {
 
 .squadSubmit{
   position: fixed;
-  bottom: 20%;
+  bottom: 12%;
+  right:12%;
 }

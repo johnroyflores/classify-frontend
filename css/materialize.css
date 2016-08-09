@@ -6987,14 +6987,14 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media only screen and (max-width: 992px) {
-  .side-nav.fixed {
+/*  .side-nav.fixed {
     -webkit-transform: translateX(-105%);
             transform: translateX(-105%);
   }
   .side-nav.fixed.right-aligned {
     -webkit-transform: translateX(105%);
             transform: translateX(105%);
-  }
+  }*/
   .side-nav a {
     padding: 0 16px;
   }

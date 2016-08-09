@@ -49,9 +49,9 @@ src:url('../fonts/english_essay.ttf');
 	font-family: barbarian;
 }
 
-.side-nav{
+/*.side-nav{
 	display: inline;
-}
+}*/
 
 li{
 	margin-bottom: 20px;
@@ -136,4 +136,9 @@ iframe {
   width: 50vw;
   height: 25vw;
   margin: 0 auto;
+}
+
+.squadSubmit{
+  position: fixed;
+  bottom: 20%;
 }

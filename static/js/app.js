@@ -22,9 +22,9 @@ $( "#textSubmit" ).click(function() {
 });
 
 $( "#photoSubmit" ).click(function() {
-  $( "#wireframe").append( $( "<img src='../images/carousel.png' class='wireframePhoto'>"));
-  });
+  $( "#wireframe").append( $( "<img src='../static/images/carousel.png' class='wireframePhoto'>"));
+});
 
-$(document).ready(function(){
-      $('.carousel').carousel();
-    });
+// $(document).ready(function(){
+//       $('.carousel').carousel();
+// });

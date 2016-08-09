@@ -133,7 +133,7 @@ li{
   width: 100%;
 }
 iframe {
-  width: 50vw;
+  width: 40vw;
   height: 25vw;
   margin: 0 auto;
 }
@@ -142,4 +142,10 @@ iframe {
   position: fixed;
   bottom: 12%;
   right:12%;
+}
+
+.wireframePhoto {
+  width: 40vw;
+  height: 25vw;
+  margin: 0 auto;
 }

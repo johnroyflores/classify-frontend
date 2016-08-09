@@ -22,13 +22,7 @@ $( "#textSubmit" ).click(function() {
 });
 
 $( "#photoSubmit" ).click(function() {
-  var wireframePhoto1 = $(".image1").val();
-  var wireframePhoto2 = $('.image2').val();
-  var wireframePhoto3 = $('.image3').val();
-  var wireframePhoto4 = $('.image4').val();
-  var wireframePhoto5 = $('.image5').val();
-  // $( "#wireframe").append( $( "<img src='" + wireframePhoto1 + "' class='wireframePhoto'>"));
-  $('#wireframe').append($('<div class="carousel"><a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a><a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a><a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a><a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a><a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a></div>'));
+  $( "#wireframe").append( $( "<img src='../images/carousel.png' class='wireframePhoto'>"));
   });
 
 $(document).ready(function(){
